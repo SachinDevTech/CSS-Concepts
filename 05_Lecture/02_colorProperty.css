@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(133, 112, 84);
+  /* Used for background color */
+}
+.color-properties {
+  background-color: #000000; /* Used for background color */
+  width: 70%;
+  margin: auto;
+  color: white; /* Used for foreground color */
+}

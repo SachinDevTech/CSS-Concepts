@@ -1,0 +1,14 @@
+* {
+  background-color: aliceblue;
+}
+
+.heading {
+  color: rgb(70, 70, 230);
+}
+.btn {
+  background-color: aquamarine;
+}
+.btn-1 {
+  background-color: black;
+  color: whitesmoke;
+}

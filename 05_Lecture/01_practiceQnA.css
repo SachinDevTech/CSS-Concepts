@@ -1,0 +1,41 @@
+.outerDiv{
+    height: 200px;
+    width: 72px;
+    border: 2px solid black;
+}
+
+.p{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+
+.innerDiv1{
+    background-color: red;
+}
+
+.innerDiv2{
+    background-color: yellow;
+}
+
+.innerDiv3{
+    background-color: green;
+}
+
+.widthh{
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+span{
+    border: 2px solid black;
+    /* width: 100px; */
+    padding: 10px;
+    /* height: 100px; */
+}

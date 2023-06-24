@@ -1,0 +1,40 @@
+body {
+  background-color: cornflowerblue;
+}
+
+h1 {
+  font-weight: 800;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+
+.para1 {
+  text-align: start;
+  line-height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.para2 {
+  text-align: end;
+  letter-spacing: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.para3 {
+  text-align: center;
+  /* Aligns text to center of a parent container */
+  /* text-decoration: line-through;
+     */
+  /* text-decoration: overline; */
+  text-decoration: underline;
+  line-height: 30px;
+}
+.para4 {
+  text-align: justify;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration:overline; /* Gives proper alignment from the both side so that text can have same behaviour at the end and at the start as well of a parent container */
+
+  text-transform: uppercase; 
+  /* text-transform: lowercase; */
+  /* text-transform: capitalize; */
+
+}
