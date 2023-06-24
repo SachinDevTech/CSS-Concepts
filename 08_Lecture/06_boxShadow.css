@@ -1,0 +1,12 @@
+#boxShadow{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(222, 86, 86);
+    box-shadow: 10px 10px 20px black;
+    transition: 0.5s;
+}
+#boxShadow:hover{
+    box-shadow: 10px 10px 30px black;
+    border-radius: 20%;
+
+}

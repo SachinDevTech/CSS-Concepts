@@ -1,0 +1,31 @@
+.card {
+  width: 400px;
+  height: 500px;
+  background-color: rgba(136, 172, 160, 0.925);
+  box-shadow: 10px 10px 20px black;
+  display: inline-block;
+  margin: 50px;
+  transition: 1s;
+}
+.card:hover{
+    /* margin: 2px; */
+    border-radius: 25% 10%;
+    box-shadow: 8px 8px 30px black;
+
+}
+img {
+  width: 400px;
+  height: 250px;
+  background-size: auto;
+  transition: 1s;
+}
+img:hover{
+    border-radius: 25% 10%;
+    box-shadow: 8px 8px 30px black;
+}
+.description {
+  text-align: center;
+}
+p{
+    text-align: justify;
+}

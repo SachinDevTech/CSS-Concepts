@@ -1,0 +1,28 @@
+.Transform{
+
+    width: 200px;
+    height: 100px;
+    background-color: blanchedalmond;
+    text-align: center;
+    margin: auto;
+}
+
+.first{
+    transform: rotate(30deg);
+    /* It rotates the div container in the clockwise direction, can be in anti-clockwise direction if the value of angle is negative, i.e. -30deg */
+}
+
+.second{
+    transform: scale(2); /*It holds a numeric value which acts as the multiple of the defined size.*/
+}
+
+.third{
+    transform: translateX(300px);
+    /* transform: translateY(50px); */
+    /* Movement of the container from one place to other. */
+}
+.fourth{
+    transform: skew(30deg);
+    /* The default behavior of the skew is to tilt the div container eg. from square to rhombus but in right to left direction.
+    You can define negative value in deg to change it's behaviour from left to right. */
+}

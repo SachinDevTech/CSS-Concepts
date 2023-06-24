@@ -1,0 +1,14 @@
+#bgImage{
+    width: 950px;
+    height: 300px;
+    margin: auto;
+    background-image: url("bgImage.jpg");
+    /* background-size: auto;  */
+    /* Will scale the image to get fit into the container. A stretch to the image is given and the image resolution can be altered by this property. */
+
+    /* background-size: contain; */
+    /* This will repeat the image if there is space left to occupy in the div Container.  No Crop, No Scale but repeat */
+
+    background-size: cover;
+    /* It will crop the image but do not scale */
+}

@@ -1,0 +1,36 @@
+body{
+    background-color: beige;
+}
+
+#smiley{
+    width: 400px;
+    height: 400px;
+    margin: 40px auto ;
+    border-radius: 50%;
+    background-color: rgb(250, 185, 11);
+}
+
+.eyes{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+    margin: 40px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.mouth{
+    height: 80px;
+    width: 200px;
+    border-radius: 0 0 10% 10%;
+    position: relative;
+    background-color: rgb(238, 147, 10);
+    top: 80px;
+    left: 100px;
+}
+
+.text{
+    text-align: center;
+}
