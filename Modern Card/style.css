@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: #cf8181; */
+  background-image: radial-gradient(
+    circle,
+    #051937,
+    #2c2246,
+    #4e2a50,
+    #6f3354,
+    #8c4053
+  );
+}
+.card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  align-content:center;
+}
+
+@media (max-width:450px) {
+    .leftBox p{
+        line-height: 0.6rem;
+        font-size: 0.6rem;
+    }
+    .leftBox h1{
+
+        font-size: 1rem;
+    }
+}
+
+.leftBox {
+  background-color: beige;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 1rem;
+  text-align: justify;
+}
+
+.leftBox h1 {
+  font-size: 2.1rem;
+  font-weight: 900;
+  background: -webkit-linear-gradient(rgb(189, 46, 232), rgb(137, 15, 15));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.leftBox p {
+  line-height: 1.4rem;
+  color: rgb(78, 58, 84);
+}
+.leftBox button {
+  width: 10rem;
+  height: 3rem;
+  background-image: linear-gradient(
+    to right bottom,
+    #051937,
+    #2c2246,
+    #4e2a50,
+    #6f3354,
+    #8c4053
+  );
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  transition: 0.3s;
+  opacity: 0.9;
+  box-shadow: 2px 2px 4px #051937;
+}
+.leftBox button:hover {
+  cursor: pointer;
+  opacity: 1;
+  background-image: linear-gradient(
+    to bottom,
+    #051937,
+    #2c2246,
+    #4e2a50,
+    #6f3354,
+    #8c4053
+  );
+  box-shadow: 3px 3px 4px #13253f;transform: scale(0.95);
+}
+
+.rightBox {
+  background-color: #634d4d;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+
+}
+.rightBox img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.2s ease;
+}
+.rightBox img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}

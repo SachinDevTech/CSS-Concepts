@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
+
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=2074&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+}
+#overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.475);
+}
+
+#center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#center h1 {
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  color: #fff;
+  font-size: 2.7rem;
+}
+#center p {
+  text-transform: capitalize;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+#center #btn {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 130px;
+  height: 35px;
+  transition: 100ms all ease-in;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  padding: 0 0.3rem;
+    margin-top: 20px;
+
+}
+#center #btn:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: black;
+}

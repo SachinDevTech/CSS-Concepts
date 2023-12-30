@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(246, 246, 189);
+}
+
+/* If i will make car1 position:absolute; then the car1 will float on screen and will be relative to the parent who has the position:relative; property. And as it will leave it's space then the other things were in queue, will come at the position of car1*/
+/* Body is by default relative so when ever i s */
+
+/* Understanding position:absolute */
+#car1 {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  background-color: red;
+}
+#car2 {
+  /* position: absolute; */
+  width: 170px;
+  height: 220px;
+  background-color: green;
+}
+#car3 {
+  /* position: absolute; */
+  width: 190px;
+  height: 240px;
+  background-color: blue;
+}
+
+/* Understanding position relative */
+
+#largeBox {
+  position: relative;
+  margin-top: 10rem;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+}
+#smallBox {
+  /* If i want this smallBox inside the largeBox then I will have to give it's parent largeBox position relative. If not then it will be relative to body tag as it position itself with respect to its parent container whose position is relative */
+  position: absolute;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
